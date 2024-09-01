@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gilroy", sans-serif;
+}
+
+.App {
+  width: 600px;
+  margin: auto;
+}
+
+.star {
+  font-size: 20px;
+  color: black;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.header > h1 {
+  text-align: center;
+}
+
+.forms {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.forms > input {
+  width: 65%;
+  border: none;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.forms > button {
+  width: 150px;
+  border: none;
+  background-color: #7a02f2;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #dddcdc;
+}
+
+.actions > .cross {
+  font-size: 20px;
+}
+
+.actions > button {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+
+.todo > .todo-text {
+  flex: 1;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.favorite {
+  margin-right: 20px;
+}
+
+.selected {
+  background-color: #fffe95;
+  border-radius: 5px;
+}
+
+.selected > .favorite > .star {
+  color: red;
+}
